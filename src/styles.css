@@ -1,0 +1,88 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.form-label {
+  margin-top: 50px;
+  font-size: 24px;
+  margin-bottom: 0;
+  color: #fff;
+}
+h1,
+h2 {
+  color: #fff;
+}
+.temperature {
+  font-size: 24px;
+  color: #fff;
+}
+
+.container {
+  display: block;
+  padding: 5px 30px 110px;
+  background: rgb(38, 43, 48);
+  border-radius: 30px;
+  max-width: 880px;
+  margin: 0 auto;
+  margin-top: 50px;
+  opacity: 85%;
+}
+
+.submit {
+  background: #284e78;
+  border: 1px solid #284e78;
+  border-radius: 25px;
+  box-shadow: 0px 5px 5px 0px rgba(172, 35, 190, 0.08);
+  color: #fff;
+  font-size: 14px;
+  margin: 28px auto;
+  padding: 4px 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.submit:hover {
+  background: #fff;
+  color: #284e78;
+  font-weight: bold;
+}
+
+.forecast {
+  margin-top: 15px;
+  color: #fff;
+}
+.card {
+  border-radius: 5px;
+  background-color: #fcf6e9;
+}
+.sunny {
+  color: #f8cb2e;
+}
+
+.sunny-cloud {
+  color: #577bc1;
+}
+
+.cloudy {
+  color: #393e46;
+}
+.drizzle {
+  color: #3797a4;
+}
+.showers {
+  color: #284e78;
+}
+
+a {
+  color: #284e78;
+}
